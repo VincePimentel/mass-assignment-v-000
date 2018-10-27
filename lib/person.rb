@@ -1,5 +1,6 @@
 class Person
-  attr_accessor :name,
+  attr_accessor
+    :name,
     :birthday,
     :hair_color,
     :eye_color,
@@ -12,4 +13,6 @@ class Person
     :glove_size,
     :pant_length,
     :pant_width
+
+
 end
